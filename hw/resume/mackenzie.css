@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+h1 {
+  font-family: "Abril Fatface", cursive;
+  color: pink;
+text-align:center;
+font-size: 75px;
+background-color: lightblue;
+}
+h3{ color: lightblue;
+}
+h2
+{ color: lightblue;
+text-align: left;}
+
+a { color: green;
+text-decoration: none;
+}
+a:hover {background-color: pink;}
+
+.summary {color: black;
+font-size: 16px;}
+
+
+address { color: green;
+font-size:16;
+}
+.list {color: pink; }
