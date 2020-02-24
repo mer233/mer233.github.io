@@ -1,0 +1,32 @@
+body { background-color: pink;
+max-width: 500px;
+margin: 0 auto;}
+
+header { background-color: grey;
+  border: 3px solid #f9423a;
+  /* padding is for space between content and border */
+  padding: 30px;
+  /* margin is for space between border and other boxes */
+  margin: 50px;
+  /* height and width is for content itself */
+  height: 100px;
+  width: 400px;
+}
+
+main {background-color: teal;
+height: 100%;
+width: 100%;
+padding: 30px 50px;}
+/* if you ahev 2 values of padding they are applied in pairs: top/bottom and right/ left
+ */
+
+.wed { background-color: yellow;
+padding: 40px 20px 10px 100px;
+margin: -40px 90px 22px 13px;}
+/* if you have four values of padding they are applied clockwise.top, right, bottom, left*/
+footer {background-color: lightblue;
+border: 3px solid green;
+padding: 50px;
+height: 20%auto;
+width: 20%;
+margin: 25px auto;}
