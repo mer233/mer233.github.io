@@ -117,7 +117,8 @@ width: 200px;
 font-size: 10px;}
 ul {font-size: 12px;
 grid-column: 4/5;
-grid-row: 1/2;}
+grid-row: 1/2;
+width: 100px;}
 h3 { border: 3px solid pink;
 width: 100px;
 height: 25px;
@@ -131,7 +132,7 @@ text-align: center;}
 
 h4 { border: 3px solid pink;
 width: 75px;
-grid-column: 4/5; 
+grid-column: 4/5;
 grid-row: 1/2;}
 
 .grid-container-2 {display: grid;
@@ -142,9 +143,16 @@ border: 2px solid black;
 .ryanhurd { width: 200px;
   height: 300px;
 grid-column: 2/3;
-grid-row: 1/2;}
+grid-row: 1/2;
+border: 2px solid black;}
 .baby {display: block;
 grid-column: 3/4;
 grid-row: 1/2;
 width: 500px;
+}
+
+nav a{
+color: pink;
+margin-right: 20px;
+font-family: "monoton", cursive;
 }

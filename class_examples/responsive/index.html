@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>CSS GRID</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="mobile.css">
     </head>
@@ -11,6 +12,12 @@
     <body>
         <header>
             <h1>Maren Morris</h1>
+            <nav>
+                <a href="#gallery">Albums & Bio</a>
+                <a href="#GIRL">GIRL</a>
+                <a href="#family">Family Life</a>
+                <a href="#tour">Tour</a>
+            </nav>
 
             <section id="gallery">
                 <section class="grid-container-1">
@@ -44,62 +51,77 @@
                 </section>
 
         </header>
-        <h2>ALBUM:</h2>
-        <main>
-            <!-- this is where the main content of my page goes. -->
-            <section class="grid-container">
-                <h2 class="album-1-title">GIRL</h2>
-                <img src="girlalbumcover.png" alt="GIRL album art" class="album-1-cover">
-                <ol class="album-1-songs">
-                    <li>"GIRL"</li>
-                    <li>"The Feels"</li>
-                    <li>"All My Favorite People"</li>
-                    <li>"A Song For Everything"</li>
-                    <li>"Common"</li>
-                    <li>"Flavor"</li>
-                    <li>"Make Out With Me"</li>
-                    <li>"Gold Love"</li>
-                    <li>"Great Ones"</li>
-                    <li>"RSVP"</li>
-                    <li>"To Hell & Back"</li>
-                    <li>"The Bones"</li>
-                    <li>"Good Woman"</li>
-                    <li>"Shade"</li>
-                </ol>
-                <p class="musicians">
-                    <ul>
-                        <h4>MUSICIANS</h4>
-                        <li>Charlie Bisharat – violin</li>
-                        <li> Jacob Braum – cello</li>
-                        <li> Busbee – percussion, programming, bass guitar, keyboards, piano, Hammond B-3 organ, synthesizer, electric guitar</li>
-                        <li>Brandi Carlile – duet vocals (track 5)</li>
-                        <li> Kathleen Edwards – background vocals (track 13)</li>
-                        <li>Alma Fernandez – viola</li>
-                        <li>Ian Fitchuk – piano, Hammond B-3 organ, synthesizer, percussion</li>
-                        <li>Natalie Hemby – background vocals (track 14)</li>
-                        <li>Ryan Hurd – background vocals (tracks 3, 9, 12)</li>
-                        <li>Greg Kurstin – drums, percussion, bass guitar, piano, keyboards, synthesizer, organ, omnichord</li>
-                        <li> Songa Lee – violin</li>
-                        <li>Rob Moore – violin, viola, octave viola</li>
-                        <li> Maren Morris – lead vocals, background vocals</li>
-                        <li>John Osborne – electric guitar</li>
-                        <li>T.J. Osborne – duet vocals (track 3)</li>
-                        <li> Aaron Sterling – drums, percussion, programming</li>
-                        <li> Laura Veltz – background vocals (tracks 4, 11, 12)</li>
-                        <li>Patrick Warren – string arrangement (tracks 7, 13)</li>
-                        <li>Derek Wells – acoustic guitar, electric guitar, mandolin</li>
-                        <li>Ben West – Hammond B-3 organ, synthesizer</li>
-                    </ul>
-                </p>
-            </section>
+        <section id="GIRL">
+
+            <h2>ALBUM:</h2>
+            <main>
+                <!-- this is where the main content of my page goes. -->
+                <section class="grid-container">
+                    <h2 class="album-1-title">GIRL</h2>
+                    <img src="girlalbumcover.png" alt="GIRL album art" class="album-1-cover">
+                    <ol class="album-1-songs">
+                        <li>"GIRL"</li>
+                        <li>"The Feels"</li>
+                        <li>"All My Favorite People"</li>
+                        <li>"A Song For Everything"</li>
+                        <li>"Common"</li>
+                        <li>"Flavor"</li>
+                        <li>"Make Out With Me"</li>
+                        <li>"Gold Love"</li>
+                        <li>"Great Ones"</li>
+                        <li>"RSVP"</li>
+                        <li>"To Hell & Back"</li>
+                        <li>"The Bones"</li>
+                        <li>"Good Woman"</li>
+                        <li>"Shade"</li>
+                    </ol>
+                    <p class="musicians">
+                        <ul>
+                            <h4>MUSICIANS</h4>
+                            <li>Charlie Bisharat – violin</li>
+                            <li> Jacob Braum – cello</li>
+                            <li> Busbee – percussion, programming, bass guitar, keyboards, piano, Hammond B-3 organ, synthesizer, electric guitar</li>
+                            <li>Brandi Carlile – duet vocals (track 5)</li>
+                            <li> Kathleen Edwards – background vocals (track 13)</li>
+                            <li>Alma Fernandez – viola</li>
+                            <li>Ian Fitchuk – piano, Hammond B-3 organ, synthesizer, percussion</li>
+                            <li>Natalie Hemby – background vocals (track 14)</li>
+                            <li>Ryan Hurd – background vocals (tracks 3, 9, 12)</li>
+                            <li>Greg Kurstin – drums, percussion, bass guitar, piano, keyboards, synthesizer, organ, omnichord</li>
+                            <li> Songa Lee – violin</li>
+                            <li>Rob Moore – violin, viola, octave viola</li>
+                            <li> Maren Morris – lead vocals, background vocals</li>
+                            <li>John Osborne – electric guitar</li>
+                            <li>T.J. Osborne – duet vocals (track 3)</li>
+                            <li> Aaron Sterling – drums, percussion, programming</li>
+                            <li> Laura Veltz – background vocals (tracks 4, 11, 12)</li>
+                            <li>Patrick Warren – string arrangement (tracks 7, 13)</li>
+                            <li>Derek Wells – acoustic guitar, electric guitar, mandolin</li>
+                            <li>Ben West – Hammond B-3 organ, synthesizer</li>
+                        </ul>
+                    </p>
+                </section>
+        </section>
+        <section id="family">
+
 
             <section class="grid-container-2">
                 <h3 class="familylife"> <u>Family Life:</u> </h3>
 
-                <p class="ryanhurd">Maren Morris and her husband Ryan Hurd are expecting their first child, a baby boy, this march. they are</p>
+                <p class="ryanhurd">Maren Morris and her husband Ryan Hurd were married in </p>
                 <img class="baby" src="babyreveal.png" alt="placeholder pic">
             </section>
+        </section>
+
+        <section id="tour">
+            <section class="grid-container-3">
+                <h3 class="tour"> <u>2020 Tour:</u> </h3>
+
+            </section>
+        </section>
         </main>
+        <footer>
+        </footer>
     </body>
 
 </html>
