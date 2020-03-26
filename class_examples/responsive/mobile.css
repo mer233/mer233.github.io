@@ -1,11 +1,14 @@
 @media only screen and (max-width: 767px) {
   body{ background-color: #e3d888;}
   .grid-container-1 { grid-template-columns: 200px;
-  grid-template-rows: repeat(9, 200px;)
+  grid-template-rows: repeat(9, 200px)
 }
+
+
+
 .g1-img-1{
 grid-column:1/2 ;
-grid-row: 1/2 ;} 
+grid-row: 1/2 ;}
 .half-1{
 grid-column: 1/2;
 grid-row: 2/3;
