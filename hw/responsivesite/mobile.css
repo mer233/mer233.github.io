@@ -1,65 +1,144 @@
 @media only screen and (max-width: 767px) {
-  body{ background-color: #e3d888;}
-  .grid-container-1 { grid-template-columns: 200px;
-  grid-template-rows: repeat(9, 200px;)
-}
-h1 { border: 3px solid #AAABBC;
-font-size: 75px;}
-nav a {
-color: #AAABBC; }
-nav{ text-align: center;}
-.musicians { column-count: 1;}
-.g1-img-1{
-grid-column:1/2 ;
-grid-row: 1/2 ;}
-.half-1{
-grid-column: 1/2;
-grid-row: 2/3;
-align-items: center;
-}
-.g1-img-2 {
-  grid-column: 1/2;
-  grid-row: 8/9;
-}
-.g1-img-3 {
-  grid-column: 1/2;
-  grid-row: 4/5;
-}
+  body {
+    background-color: #e3d888;
+  }
 
-.g1-img-4 {
-  grid-column: 1/2;
-  grid-row: 5/6;
-}
-.g1-img-5 {
-  grid-column: 1/2;
-  grid-row: 6/7;
-}
+  .grid1-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
 
-.g1-img-6 {
-  grid-column: 1/2;
-  grid-row: 9/10;
-}.g1-img-7 {
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-.grid-container { grid-template-columns: 175px;
-grid-template-rows: repeat (4, 175px;)
-}
-.album-1-title {grid-column:1/2 ;
-grid-row: 3/4 ;}
-.album-1-cover { grid-column: 1/2;
-grid-row: 1/2;}
-.album-1-songs {grid-column: 1/2;
-grid-row: 4/5;}
-.musicians {grid-column: 1/2;
-grid-row: 2/3;}
+  .grid1-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 
-.grid-container-2 { grid-template-columns: 175px;
-grid-template-rows: repeat (3, 175px;)}
-.familylife {  grid-column: 1/2;
-grid-row: 1/2;}
-.ryanhurd {grid-column: 1/2;
-grid-row: 2/3;}
-.baby {grid-column:1/2 ;
-grid-row: 3/4; }
+  .grid1-text {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  h1 {
+    border: 3px solid #AAABBC;
+    font-size: 50px;
+  }
+
+  u {
+    color: teal;
+  }
+
+  .album-1-title {
+    color: teal;
+  }
+
+  nav a {
+    color: #AAABBC;
+    font-size: 12px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .musicians {
+    column-count: 1;
+  }
+
+  .g1-img-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .half-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-items: center;
+  }
+
+  .g1-img-2 {
+    grid-column: 1/2;
+    grid-row: 8/9;
+  }
+
+  .g1-img-3 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .g1-img-4 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    width: 200px;
+    height: 250px;
+  }
+
+  .g1-img-5 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    width: 400px;
+    height: 350px;
+  }
+
+  .g1-img-6 {
+    grid-column: 1/2;
+    grid-row: 9/10;
+  }
+
+  .g1-img-7 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .grid-container-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (3, 175px; )
+  }
+
+  .familylife {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .ryanhurd {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .baby {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 40px;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .album-1-title {
+    grid-column: 1/2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .album-1-cover {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .album-1-songs {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .musicians {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    column-count: 1;
+  }
 }
