@@ -1,0 +1,28 @@
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+.placeimage {
+  width: 250px;
+  height: 200px;
+}
+
+nav a {
+  color: #815E5B;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid #815E5B;
+}
+
+.grid-placename {
+  grid-column: 1/2;
+}
+
+.grid-placecontent {
+  grid-column: 2/3;
+}
