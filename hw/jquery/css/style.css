@@ -1,14 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
   max-width: 900px;
   margin: 0 auto;
   background-color: lightblue;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  text-align: center;
 }
 
 .placeimage {
   width: 250px;
   height: 200px;
+}
+
+nav {
+  text-align: center;
 }
 
 nav a {
@@ -19,7 +28,7 @@ nav a {
   display: grid;
   grid-template-columns: 1fr 2fr;
   border: 1px solid #815E5B;
-  padding: 5px;
+  padding: 6px;
 }
 
 .grid-placename {
