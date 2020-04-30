@@ -12,6 +12,10 @@ h1 {
   font-family: 'Acme', sans-serif;
 }
 
+a {
+  color: #40BCD8;
+}
+
 nav {
   text-align: center;
 }
@@ -63,11 +67,14 @@ h2 {
 }
 
 .grid2-container {
+  text-align: center;
   margin: 20px;
   border: solid #B3CDD1 3px;
+  font-family: 'Acme', sans-serif;
 }
 
 .grid3-container {
+  text-align: center;
   margin: 12px;
   border: solid #B3CDD1 5px;
   width: 100px;
@@ -110,9 +117,11 @@ h2 {
 }
 
 .grid5-container {
-  margin: 3px;
+  display: grid;
+  margin: 6px;
   border: solid #B3CDD1 2px;
   font-family: 'Acme', sans-serif;
+  text-align: center;
 }
 
 .phone {
@@ -122,7 +131,7 @@ h2 {
 
 .email {
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 
 .insta {

@@ -1,0 +1,64 @@
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #E6DBD0;
+  }
+
+  h1 {
+    border: 3px solid #8FBFE0;
+    font-size: 50px;
+  }
+
+  .grid1-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .grid1-img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .grid1-img2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .grid1-img3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .grid1-img4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .grid1-img5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  .grid4-img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .grid4-img2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .grid4-img3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .grid4-img4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .grid4-img5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
