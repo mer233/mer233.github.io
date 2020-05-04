@@ -100,6 +100,15 @@ h2 {
   width: 100%;
 }
 
+button {
+  font-family: 'Acme', sans-serif;
+  background-color: #B3CDD1;
+}
+
+.blurb {
+  display: none;
+}
+
 .p1 {
   grid-column: 1/2;
   grid-row: 1/2;
